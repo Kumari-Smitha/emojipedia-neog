@@ -1,0 +1,33 @@
+.App {
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    background-color: #fecdd3;
+    font-family: Georgia, 'Times New Roman', Times, serif
+   
+    
+  }
+  .center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .emojipedia {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+  }
+  
+  input {
+    padding: 1rem 7rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
